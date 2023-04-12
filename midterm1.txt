@@ -1,0 +1,16 @@
+EE242 Midterm I
+q1) (10 points )
+Find the ascii sum of the characters in your name and surname. (ascii sum of the name ali is 097+ 108+ 105=310)
+  Alp Konyalı
+ 
+ASciiname = 97 + 108 + 112 = 317
+ASciisurname = 107 + 111 + 110 + 121 + 97 + 108 + 105 = 698
+ASciitotal = ASciiname + ASciisurname = 1015
+
+Timernumber = (ASciitotal % 14) + 1 = (1015 % 14) + 1 = 8
+
+ARRNUMBER = 65536 - 1 = 65535
+
+Duration = (ASciisurname % 1500) * 30 = (698 % 1500) * 30 = 20940
+
+LEDPINNUMBER = (ASciitotal % 4) + 12 = (1015 % 4) + 12 = 15
